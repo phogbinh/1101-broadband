@@ -13,6 +13,7 @@ y2 = fft(x2);
 %% plot
 figure(1);
 plot(t, x1);
+ylim([-0.5 1.5]);
 xlabel('Time (seconds)');
 ylabel('Amplitude');
 hold on;
